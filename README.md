@@ -30,6 +30,19 @@ In my experience, taking a picture is the easiest way to record important inform
 
 **About the files:**
 ```
+📦Blood Pressure Recorder Mobile App
+ ┣ 📂example_img
+ ┃ ┣ 📜IMG_20210904_180521.jpg
+ ┃ ┣ 📜pick2.jpg
+ ┃ ┗ 📜pick5.jpg
+ ┣ 📜BP.db
+ ┣ 📜bp_img.png
+ ┣ 📜kv_str.py
+ ┣ 📜line_img.jpg
+ ┣ 📜main.py
+ ┣ 📜recog.py
+ ┣ 📜seg_image.ipynb
+ ┗ 📜sql_op.py
 ```
 The fron-end is designed with `kivy, kiviMD, Plyer`, back-end is implemented with `python, OpenCV, numpy`.
 There are three screens:
