@@ -8,8 +8,8 @@
   - [4. Add records screen](#4-add-records-screen)
     - [4.1 Base interface](#41-base-interface)
     - [4.2 Adding records by hand](#42-adding-records-by-hand)
-    - [4.3 Adding by file chooser](#43-adding-by-file-chooser)
-    - [4.4 Adding by camera](#44-adding-by-camera)
+    - [4.3 Adding records by file chooser](#43-adding-records-by-file-chooser)
+    - [4.4 Adding records by camera](#44-adding-records-by-camera)
   - [5. The back-end method](#5-the-back-end-method)
     - [5.1 `recog.py`: recognize value and extract time](#51-recogpy-recognize-value-and-extract-time)
     - [5.2 `sql_op.py`: database operations](#52-sql_oppy-database-operations)
@@ -102,7 +102,7 @@ In the following pictures:
   <img src="./result_image/by_hand_list.png" width="30%" height="100%"/>
 </p>
 
-### 4.3 Adding by file chooser
+### 4.3 Adding records by file chooser
 
 The user can add record by choosing photo from local folder. 
 By clicking the `upload` icon, a folder explorer window will pop up, user can choose photo. Below are some results:
@@ -120,7 +120,7 @@ Below pictures show the second added results in scatter plot and list.
 
 The App recognizes the pressure value correctly, it also extracts the date and time information from the file with the help of library `exifread`.
 
-### 4.4 Adding by camera
+### 4.4 Adding records by camera
 
 The user can add record by taking photo with camera. 
 By clicking the `camera` icon, it will switch to camera screen, by clicking the `left arrow icon`, it will switch back to the previous screen. 
